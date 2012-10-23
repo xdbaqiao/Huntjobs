@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, HuntjobsActivity!</string>
+    <string name="app_name">Huntjobs</string>
+    <string name="title_name">校园招聘信息</string>
+    <string name="area">校区选择</string>
+    <string name="south">">>西安电子科技大学南校区"</string>
+    <string name="north">">>西安电子科技大学北校区"</string>
+    <string name="about">关于Huntjobs</string>
+    <string name="abouttitle">About</string>
+    <string name="aboutname">作者：yexinjing</string>
+    <string name="aboutemail">邮箱：yexj061761@gmail.com</string>
+    <string name="aboutversion">版本号：1.0.0</string>
+    <string name="aboutstring">"     这是一个关于找工作的应用，你可以通过该应用获取最新的西安主要高校校园招聘的相关信息。所有信息均来自：job.nwpu.edu.cn，job.xidian.edu.cn以及job.xjtu.edu.cn。"</string>
+    <string name="aboutstring2">"     由于作者水平有限，如果您发现有bug或者有好的建议，欢迎您联系我。"</string>
+    <string name="detail">详情</string>
+    <string name="xajt">">>西安交通大学"</string>
+    <string name="nwpu">">>西北工业大学"</string>
+        <string name="southic">"西安电子科技大学南校区"</string>
+        <string name="northic">"西安电子科技大学北校区"</string>
+        <string name="xajtic">"西安交通大学"</string>
+        <string name="nwpuic">"西北工业大学"</string>
+
+</resources>

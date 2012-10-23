@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/desktop"
+    android:adjustViewBounds="true" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+            <TextView
+               android:layout_marginTop="20dip" 
+               android:layout_marginLeft="5dip"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:ellipsize="end"
+               android:text="@string/title_name"
+               android:textColor="#000"
+               android:textSize="20dp" />
+           <TextView
+               android:id="@+id/xajt"
+               android:layout_marginTop="20dip"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="15dip"
+               android:ellipsize="end"
+               android:text="@string/xajt"
+               android:textColor="#038549"
+               android:textSize="23dp" />
+           <TextView
+               android:id="@+id/nwpu"
+               android:layout_marginTop="20dip"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="15dip"
+               android:ellipsize="end"
+               android:text="@string/nwpu"
+               android:textColor="#038549"
+               android:textSize="23dp" />
+           <TextView
+               android:id="@+id/buttonnorth"
+               android:layout_marginTop="20dip"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="15dip"
+               android:ellipsize="end"
+               android:text="@string/north"
+               android:textColor="#038549"
+               android:textSize="23dp" />
+          <TextView
+               android:id="@+id/buttonsouth"
+               android:layout_marginTop="20dip"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="15dip"
+               android:ellipsize="end"
+               android:text="@string/south"
+               android:textColor="#038549"
+               android:textSize="23dp" />
+          <TextView
+               android:id="@+id/about"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="170dip"
+               android:gravity="center"
+               android:ellipsize="end"
+               android:text="@string/about"
+               android:textColor="#000"
+               android:textSize="18dp" />
+     </LinearLayout>
+     <ProgressBar 
+        android:id="@+id/ProgressBar01" 
+        style="?android:attr/progressBarStyleLarge" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:max="100" 
+        android:progress="50" 
+        android:secondaryProgress="70" 
+        android:visibility="gone" /> 
+</LinearLayout>
